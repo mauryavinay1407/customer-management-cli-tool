@@ -1,0 +1,24 @@
+{
+  "name": "customer-management-cli",
+  "version": "1.0.0",
+  "description": "Client Management System",
+  "type": "module",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": {
+    "cmc": "./commands.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.0.0",
+    "dotenv": "^16.4.5",
+    "inquirer": "^8.0.0",
+    "mongoose": "^8.3.3"
+  }
+}
